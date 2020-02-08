@@ -1,0 +1,38 @@
+#zoo {
+    background-color: powderblue;
+  }
+  #hike {
+    background-color: lightgrey;
+  }
+  #menu{
+    font-family: "Georgia", Times, serif;}
+  #love{
+    font-weight: bold;
+    text-align: right;
+  }
+  #favorite{
+    font-variant: small-caps;
+    
+  }
+  #menu{
+    color: #6484FA;
+  }
+  #menu{
+    font-weight: 20;
+  }
+  #food{
+    line-height: 1.2;
+    text-align: justify;
+  }
+  a:hover{
+    color: hotpink;
+  }
+  table, th, td {
+    border: 3px solid black;
+  }
+  
+  input:focus {
+    background-color: lightblue;
+  }
+  /* Styling embedded map */
+  
