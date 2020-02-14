@@ -1,38 +1,97 @@
+#nav{
+  text-align: center;
+}
+.places{
+  border: 20px solid lightblue;
+  margin-left:1000px;
+  position: fixed;
+  font-size: 120%;
+}
+
 #zoo {
-    background-color: powderblue;
-  }
-  #hike {
-    background-color: lightgrey;
-  }
-  #menu{
-    font-family: "Georgia", Times, serif;}
-  #love{
-    font-weight: bold;
-    text-align: right;
-  }
-  #favorite{
-    font-variant: small-caps;
-    
-  }
-  #menu{
-    color: #6484FA;
-  }
-  #menu{
-    font-weight: 20;
-  }
-  #food{
-    line-height: 1.2;
-    text-align: justify;
-  }
-  a:hover{
-    color: hotpink;
-  }
-  table, th, td {
-    border: 3px solid black;
-  }
+  background-color: powderblue;
+ 
+}
+#hike {
+  background-color: lightgrey;
+}
+#menu{
+  font-family: "Georgia", Times, serif;}
+#love{
+  font-weight: bold;
+  text-align: right;
+}
+#favorite{
+  font-variant: small-caps;
   
-  input:focus {
-    background-color: lightblue;
-  }
-  /* Styling embedded map */
+}
+#menu{
+  color: #6484FA;
+}
+#menu{
+  font-weight: 20;
+  border: 20px solid lightgreen;
+  margin-left:100px;
+  box-shadow: 5px 10px darkgreen;
+  text-align: center;
+  width: 60%;
   
+}
+
+#list{
+  font-weight:20;
+  font-size: 150%;
+  padding: 10px;
+  color: darkviolet;
+
+}
+#food{
+  line-height: 1.2;
+  text-align: justify;
+}
+a:hover{
+  color: hotpink;
+}
+/*
+#place{
+  border: 3px solid darkblue;
+  position: fixed;
+}
+*/
+table, th, td {
+  border: 3px solid darkblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 70%;
+  height: 50%;
+}
+
+input:focus {
+  background-color: lightblue;
+  border: 5px solid green;
+  margin-top:10px;
+  padding: 12px 20px;
+  cursor: pointer;
+  
+}
+#thezoopic{
+  column-count: 3;
+}
+/* Three image containers  */
+.column {
+  float: left;
+  width: 33.33%;
+  
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Styling embedded map */
